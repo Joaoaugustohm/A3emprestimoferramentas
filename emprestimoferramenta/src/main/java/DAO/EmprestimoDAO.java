@@ -1,5 +1,6 @@
 package DAO;
 
+import Model.Ferramenta;
 import Model.Amigo;
 import Model.Emprestimo;
 import Model.Ferramenta;
