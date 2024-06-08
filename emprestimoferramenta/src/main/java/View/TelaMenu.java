@@ -32,7 +32,7 @@ public class TelaMenu extends javax.swing.JFrame {
 
         jLabel3.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel3.setText("Selecione uma das opções abaixo ");
+        jLabel3.setText("Selecione uma das opções abaixo !");
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 250, 240, -1));
 
         jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\victor\\Documents\\NetBeansProjects\\A3copy\\src\\main\\java\\View\\imagens\\ferramenta (1).png")); // NOI18N
@@ -47,7 +47,7 @@ public class TelaMenu extends javax.swing.JFrame {
                 btnFerramentasActionPerformed(evt);
             }
         });
-        getContentPane().add(btnFerramentas, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 400, -1, -1));
+        getContentPane().add(btnFerramentas, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 400, -1, -1));
 
         btnAmigos.setText("Amigos");
         btnAmigos.addActionListener(new java.awt.event.ActionListener() {
@@ -55,7 +55,7 @@ public class TelaMenu extends javax.swing.JFrame {
                 btnAmigosActionPerformed(evt);
             }
         });
-        getContentPane().add(btnAmigos, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 400, -1, -1));
+        getContentPane().add(btnAmigos, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 400, -1, -1));
 
         btnEmprestimos.setText("Emprestimos");
         btnEmprestimos.addActionListener(new java.awt.event.ActionListener() {
@@ -63,7 +63,7 @@ public class TelaMenu extends javax.swing.JFrame {
                 btnEmprestimosActionPerformed(evt);
             }
         });
-        getContentPane().add(btnEmprestimos, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 400, -1, -1));
+        getContentPane().add(btnEmprestimos, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 400, -1, -1));
 
         jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\victor\\Documents\\NetBeansProjects\\A3copy\\src\\main\\java\\View\\imagens\\novo.png")); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
