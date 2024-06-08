@@ -21,7 +21,7 @@ public class TelaMenu extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel2.setFont(new java.awt.Font("Garamond", 0, 48)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Garamond", 0, 50)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Bem vindo ");
         jLabel2.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
@@ -30,33 +30,42 @@ public class TelaMenu extends javax.swing.JFrame {
         jLabel2.setPreferredSize(new java.awt.Dimension(190, 48));
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 190, 230, 50));
 
-        jLabel3.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Garamond", 0, 18)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Selecione uma das opções abaixo !");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 250, 240, -1));
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 250, 250, -1));
 
         jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\victor\\Documents\\NetBeansProjects\\A3copy\\src\\main\\java\\View\\imagens\\ferramenta (1).png")); // NOI18N
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 170, -1, -1));
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 160, -1, -1));
 
         jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Users\\victor\\Documents\\NetBeansProjects\\A3copy\\src\\main\\java\\View\\imagens\\arquiteto.png")); // NOI18N
         getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 190, -1, -1));
 
+        btnFerramentas.setBackground(new java.awt.Color(255, 255, 255));
+        btnFerramentas.setFont(new java.awt.Font("Garamond", 1, 18)); // NOI18N
+        btnFerramentas.setForeground(new java.awt.Color(255, 255, 255));
         btnFerramentas.setText("Ferramentas ");
         btnFerramentas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnFerramentasActionPerformed(evt);
             }
         });
-        getContentPane().add(btnFerramentas, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 400, -1, -1));
+        getContentPane().add(btnFerramentas, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 400, -1, -1));
 
+        btnAmigos.setBackground(new java.awt.Color(255, 255, 255));
+        btnAmigos.setFont(new java.awt.Font("Garamond", 1, 18)); // NOI18N
+        btnAmigos.setForeground(new java.awt.Color(255, 255, 255));
         btnAmigos.setText("Amigos");
         btnAmigos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnAmigosActionPerformed(evt);
             }
         });
-        getContentPane().add(btnAmigos, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 400, -1, -1));
+        getContentPane().add(btnAmigos, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 400, -1, -1));
 
+        btnEmprestimos.setBackground(new java.awt.Color(255, 255, 255));
+        btnEmprestimos.setFont(new java.awt.Font("Garamond", 1, 18)); // NOI18N
+        btnEmprestimos.setForeground(new java.awt.Color(255, 255, 255));
         btnEmprestimos.setText("Emprestimos");
         btnEmprestimos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -73,17 +82,17 @@ public class TelaMenu extends javax.swing.JFrame {
 
     private void btnFerramentasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnFerramentasActionPerformed
         // TODO add your handling code here:
-         new TelaFerramentas().setVisible(true);
+         new telaFerramentas().setVisible(true);
     }//GEN-LAST:event_btnFerramentasActionPerformed
 
     private void btnEmprestimosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEmprestimosActionPerformed
         // TODO add your handling code here:
-            new TelaEmprestimos().setVisible(true);
+              new telaEmprestimos().setVisible(true);
     }//GEN-LAST:event_btnEmprestimosActionPerformed
 
     private void btnAmigosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAmigosActionPerformed
         // TODO add your handling code here:
-                new TelaAmigos().setVisible(true);
+             new TelaAmigo().setVisible(true);
 
     }//GEN-LAST:event_btnAmigosActionPerformed
 
