@@ -48,9 +48,9 @@ public class telaEmprestimos extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel2.setFont(new java.awt.Font("Garamond", 0, 48)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Garamond", 1, 48)); // NOI18N
         jLabel2.setText("Emprestimos ");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 0, -1, -1));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 0, -1, -1));
         getContentPane().add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 60, 870, 10));
 
         jLabel1.setFont(new java.awt.Font("Garamond", 0, 24)); // NOI18N
