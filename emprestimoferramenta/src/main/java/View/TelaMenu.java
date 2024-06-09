@@ -13,9 +13,9 @@ public class TelaMenu extends javax.swing.JFrame {
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
-        btnFerramentas = new javax.swing.JButton();
         btnAmigos = new javax.swing.JButton();
         btnEmprestimos = new javax.swing.JButton();
+        jButton1 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -41,17 +41,6 @@ public class TelaMenu extends javax.swing.JFrame {
         jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Users\\victor\\Documents\\NetBeansProjects\\A3copy\\src\\main\\java\\View\\imagens\\arquiteto.png")); // NOI18N
         getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 190, -1, -1));
 
-        btnFerramentas.setBackground(new java.awt.Color(255, 255, 255));
-        btnFerramentas.setFont(new java.awt.Font("Garamond", 1, 18)); // NOI18N
-        btnFerramentas.setForeground(new java.awt.Color(255, 255, 255));
-        btnFerramentas.setText("Ferramentas ");
-        btnFerramentas.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnFerramentasActionPerformed(evt);
-            }
-        });
-        getContentPane().add(btnFerramentas, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 400, -1, -1));
-
         btnAmigos.setBackground(new java.awt.Color(255, 255, 255));
         btnAmigos.setFont(new java.awt.Font("Garamond", 1, 18)); // NOI18N
         btnAmigos.setForeground(new java.awt.Color(255, 255, 255));
@@ -74,16 +63,14 @@ public class TelaMenu extends javax.swing.JFrame {
         });
         getContentPane().add(btnEmprestimos, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 400, -1, -1));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\victor\\Documents\\NetBeansProjects\\A3copy\\src\\main\\java\\View\\imagens\\novo.png")); // NOI18N
+        jButton1.setText("jeus");
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 410, -1, -1));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\victor\\Documents\\NetBeansProjects\\A3 teste\\A3emprestimoferramentas\\emprestimoferramenta\\A3emprestimoferramentas\\emprestimoferramenta\\src\\main\\java\\View\\imagens\\fosco.jpg")); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         setBounds(0, 0, 622, 645);
     }// </editor-fold>//GEN-END:initComponents
-
-    private void btnFerramentasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnFerramentasActionPerformed
-        // TODO add your handling code here:
-         new telaFerramentas().setVisible(true);
-    }//GEN-LAST:event_btnFerramentasActionPerformed
 
     private void btnEmprestimosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEmprestimosActionPerformed
         // TODO add your handling code here:
@@ -134,7 +121,7 @@ public class TelaMenu extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnAmigos;
     private javax.swing.JButton btnEmprestimos;
-    private javax.swing.JButton btnFerramentas;
+    private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;

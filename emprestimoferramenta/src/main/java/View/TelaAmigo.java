@@ -78,6 +78,11 @@ public class TelaAmigo extends javax.swing.JFrame {
         BtCadastrar.setFont(new java.awt.Font("Garamond", 1, 18)); // NOI18N
         BtCadastrar.setForeground(new java.awt.Color(255, 255, 255));
         BtCadastrar.setText("Cadastrar");
+        BtCadastrar.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                BtCadastrarMouseClicked(evt);
+            }
+        });
         getContentPane().add(BtCadastrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 270, -1, -1));
 
         BtEditar.setBackground(new java.awt.Color(255, 255, 255));
@@ -112,6 +117,10 @@ public class TelaAmigo extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void BtCadastrarMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_BtCadastrarMouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_BtCadastrarMouseClicked
 
     /**
      * @param args the command line arguments
