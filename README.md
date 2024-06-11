@@ -30,3 +30,5 @@ Celular: (48) 991577846
 
 ------------------------------------------------
 
+Link da documentação do projeto: https://docs.google.com/document/d/1kQPMKaMB_UnzYE7H081aoql3R3RVHZom/edit
+
